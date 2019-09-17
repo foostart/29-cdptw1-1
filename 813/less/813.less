@@ -1,0 +1,75 @@
+@background : #25274d;
+@border : 0.5rem;
+@margin: 10px;
+@textlimit{
+        display: -webkit-box;
+       
+       
+        -webkit-line-clamp: 50;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+body{
+        background-color: @background !important;
+}
+.type-813{
+        padding: 4%;
+        height: 400px;
+        background-color: @background !important;
+}
+.col-md-3{
+        background: #ff9b00;
+        padding: 4%;
+        border-top-left-radius: @border;
+        border-bottom-left-radius: @border;
+        
+}
+.control-label
+{
+    margin-right: @margin;
+    margin-bottom: @margin;
+    @textlimit;
+}
+.type-813-info{
+        margin-top:10%;
+       
+}
+
+.type-813-info img{
+        margin-bottom: 15%;
+}
+.type-813-info h2{
+        margin-bottom: 10%;
+        @textlimit;
+}
+.type-813-info h4{
+        margin-bottom: 10%;
+        @textlimit;
+}
+.col-md-9{
+        background: #fff;
+        padding: 3%;
+        border-top-right-radius: @border;
+        border-bottom-right-radius: @border;
+       
+}
+
+.type-813-form label{
+        font-weight:600;
+}
+.type-813-form button{
+        background: @background;
+        color: #fff;
+        font-weight: 600;
+        width: 25%;
+}
+.type-813-form button:focus{
+        box-shadow:none;
+}
+.form-control{
+    margin-bottom: -@margin;
+}
+.btn{
+    margin-top: @margin;
+}
