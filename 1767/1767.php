@@ -15,21 +15,17 @@
     $less = new lessc;
     $less->compileFile('less/1767.less', 'css/1767.css');
 ?>
-<html>
+<html lang="en">
     <head>
-        <title>1892</title>
+        <title>1867</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Basic usage demo">
         <meta name="author" content="David Deutsch">
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-       <link href="<?php echo $url_path ?>/css/1767.css" rel="stylesheet" type="text/css"/>
-       <link rel="stylesheet" type="text/css" href="alert.js">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/1767.js" type="text/javascript"></script>
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link href="css/1767.css" rel="stylesheet" type="text/css"/>
+          
     </head>
     <body>
         <?php include './1767-content.php'; ?>

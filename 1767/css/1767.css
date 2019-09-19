@@ -1,15 +1,9 @@
-.section-title {
+.type-1767-section-title {
   margin-bottom: 30px;
 }
-.card-img-top {
-  width: 100%;
-  border-top-left-radius: calc(-0.75rem);
-  border-top-right-radius: calc(-0.75rem);
-}
-.card-title {
-  margin-bottom: .75rem;
+.type-1767-card-title {
+  margin-bottom: 20px;
   color: #142cd4;
-  margin-left: -226px;
 }
 .card-text:last-child {
   margin-bottom: 0;
@@ -32,12 +26,17 @@ h2 {
   font-size: 3rem;
   text-align: center;
   color: #0909bd;
+  display: -webkit-box;
+  -webkit-line-clamp: 50;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.card {
+.type-1767-card {
   border: none;
 }
-.card-title:hover {
-  color: red;
+.type-1767-card-title:hover {
+  color: #aab3ef;
 }
 .btn {
   margin: auto;
@@ -59,12 +58,12 @@ p {
   display: block;
   overflow: hidden;
   max-width: 600px;
-  margin: 0 auto 15px;
   font-style: italic;
   font-size: 15px;
 }
-p#text-style {
+#text-style {
   text-align: center;
+  margin: 0 auto 15px;
 }
 p.card-text {
   color: red;
@@ -79,5 +78,25 @@ img {
   vertical-align: middle;
   border-style: none;
   max-width: 100%;
-  height: auto;
+  height: 270px;
+}
+@media (max-width: 300px) {
+  .type-1767-card-title {
+    margin-left: auto;
+  }
+}
+@media (min-width: 991px) {
+  p {
+    margin-bottom: -10px;
+  }
+}
+@media (max-width: 768px) {
+  img {
+    height: auto;
+  }
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 3rem;
+  }
 }
