@@ -18,16 +18,15 @@
     
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="vi">
     <head>
         <title>module 1788</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap" rel="stylesheet">
-        <link href="css/bootstrap.min.css" rel="stylesheet"  />
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
         <link href="css/font-awesome.min.css" rel="stylesheet"/>
-        <link href="css/1788.css" rel="stylesheet" type="text/css" />
-        <script src="js/jquery-3.4.1.min.js" ></script>
+        <link href="css/1788.css" rel="stylesheet" type="text/css"/>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');

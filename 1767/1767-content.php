@@ -14,19 +14,19 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <div class="type-1767">
 	<div class="container">
-        <div class="type-1767-main">
-	        <div class="type-1767-section-title">
+        <div class="main">
+	        <div class="section-title">
 		        <h2>HOTELS</h2>
 		        <p id="text-style">Her are some nearby hotels</p>
 		        <hr>
 		     </div>
 		    <div class="row">
 	        	<div class="col-md-4">
-					<div class="type-1767-card">
+					<div class="card">
 					    <img src="images/1.jpg" alt="image">
-					 	 <div class="type-1767-card-body">
-					  		  <h3 class="type-1767-card-title">Hotel 1</h3>
-					  		  <div class="type-1767-star">
+					 	 <div class="card-body">
+					  		  <h3 class="card-title">Hotel 1</h3>
+					  		  <div class="star">
 					  		  	 <span class="fa fa-star checked"></span>
 					  		  	 <span class="fa fa-star checked"></span>
 					  		  	 <span class="fa fa-star checked"></span>
@@ -40,9 +40,9 @@ $url_path = str_replace('\\', '/', $url_path);
 				<div class="col-md-4">
 					<div class="type-1767-card">
 					    <img src="images/2.jpg" alt="image">
-					    <div class="type-1767-card-body">
-					    <h3 class="type-1767-card-title">Hotel 2</h3>
-					    	<div class="type-1767-star">
+					    <div class="card-body">
+					    <h3 class="card-title">Hotel 2</h3>
+					    	<div class="star">
 					  		  	 <span class="fa fa-star checked"></span>
 					  		  	 <span class="fa fa-star checked"></span>
 					  		  	 <span class="fa fa-star checked"></span>
@@ -54,11 +54,11 @@ $url_path = str_replace('\\', '/', $url_path);
 					</div>
 				</div>
 				<div class="col-md-4">
-			    	<div class="type-1767-card">
+			    	<div class="card">
 						<img src="images/3.jpg" alt="image">
-						<div class="type-1767-card-body">
-						    <h3 class="ctype-1767-ard-title">Hotel 3</h3>
-					        <div class="type-1767-star">
+						<div class="card-body">
+						    <h3 class="ard-title">Hotel 3</h3>
+					        <div class="star">
 					  		  	 <span class="fa fa-star checked"></span>
 					  		  	 <span class="fa fa-star checked"></span>
 					  		  	 <span class="fa fa-star checked"></span>

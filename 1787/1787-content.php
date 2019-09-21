@@ -9,9 +9,9 @@
 ?>
 <div class="type-1787">
     <div class="container">
-      <div class="type-1787-mx-auto text-center">
-        <h1 class="type-1787-mx-auto text-uppercase">Grayscale</h1>
-        <h2 class="text-white-50 type-1787-mx-auto">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto text-uppercase">Grayscale</h1>
+        <h2 class="text-white-50 mx-auto">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
         <a href="#" class="btn btn-primary">Get Started</a>
       </div>
     </div>

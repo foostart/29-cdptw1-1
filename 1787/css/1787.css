@@ -8,6 +8,10 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .type-1787 h1 {
   font-size: 8rem;
@@ -18,8 +22,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-line-clamp: 1;
-}
-.type-1787 h1 {
   font-family: 'Varela Round';
   background: -webkit-linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0));
   -webkit-text-fill-color: transparent;
@@ -36,14 +38,14 @@
   -webkit-line-clamp: 2;
   margin-top: 10px;
 }
-.text-white-50 {
+.type-1787 .text-white-50 {
   color: rgba(255,255,255,0.5) !important;
 }
-.type-1787-mx-auto {
+.type-1787 .mx-auto {
   margin-left: auto !important;
   margin-right: auto !important;
 }
-.btn {
+.type-1787 .btn {
   display: inline-block;
   font-weight: 400;
   color: #212529;
@@ -53,21 +55,15 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  max-width: 10rem;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-.btn-primary {
+.type-1787 .btn-primary {
   background-color: #467370 !important;
   overflow: hidden;
 }
-.btn-primary:hover {
+.type-1787 .btn-primary:hover {
   background-color: #4f555c !important;
-}
-.type-1787 {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 @media (max-width: 670px) {
   .type-1787 h1 {

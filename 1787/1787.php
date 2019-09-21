@@ -24,12 +24,9 @@
         <title>module 1787</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link href="css/bootstrap.min.css" rel="stylesheet"  />
         <link href="css/font-awesome.min.css" rel="stylesheet"/>
         <link href="css/1787.css" rel="stylesheet" type="text/css" />
-        <script src="js/jquery-3.4.1.min.js" ></script>
-
     </head>
     <body>
          <?php  $dir_block.include'1787-content.php'; ?>
