@@ -13,19 +13,19 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-<!------ Include the above in your HEAD tag ---------->
+
 <div class="type-813">
-	<div class="container type-813">
+	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
-				<div class="type-813-info">
+			<div class="col-md-3 main">
+				<div class="info">
 					<img src="https://image.ibb.co/kUASdV/type-813-image.png" alt="image"/>
 					<h2>Contact Us</h2>
 					<h4>We would love to hear from you !</h4>
 				</div>
 			</div>
-			<div class="col-md-9">
-				<div class="type-813-form">
+			<div class="col-md-9 footer">
+				<div class="form">
 					<div class="form-group">
 					  <label class="control-label col-sm-2" >First Name:</label>
 					  <div class="col-sm-10">          

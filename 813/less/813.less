@@ -11,65 +11,70 @@
         text-overflow: ellipsis;
 }
 body{
-        background-color: @background !important;
+    background-color: @background !important;
 }
 .type-813{
-        padding: 4%;
-        height: 400px;
-        background-color: @background !important;
-}
-.col-md-3{
+    padding: 4%;
+    height: 400px;
+    
+    .main{
         background: #ff9b00;
         padding: 4%;
         border-top-left-radius: @border;
-        border-bottom-left-radius: @border;
-        
-}
-.control-label
-{
-    margin-right: @margin;
-    margin-bottom: @margin;
-    @textlimit;
-}
-.type-813-info{
-        margin-top:10%;
-       
+        border-bottom-left-radius: @border; 
+    }
+    .control-label
+    {
+        margin-right: @margin;
+        margin-bottom: @margin;
+        @textlimit;
+    }
+    .info{
+            margin-top:10%;
+           
+    }
+    .info img{
+            margin-bottom: 15%;
+    }
+    .info h2{
+            margin-bottom: 10%;
+            @textlimit;
+    }
+    .info h4{
+            margin-bottom: 10%;
+            @textlimit;
+    }
+    .footer{
+            background: #fff;
+            padding: 3%;
+            border-top-right-radius: @border;
+            border-bottom-right-radius: @border;  
+    }
+
+    .form label{
+            font-weight:600;
+    }
+    .form button{
+            background: @background;
+            color: #fff;
+            font-weight: 600;
+            width: 25%;
+    }
+    .form button:focus{
+            box-shadow:none;
+    }
+    .form-control{
+        margin-bottom: -@margin;
+    }
+    .btn{
+        margin-top: @margin;
+    }
+
+    @media (max-width: 360px){
+        .form button{
+            font-size: 0.7rem;
+     }
+    }
+
 }
 
-.type-813-info img{
-        margin-bottom: 15%;
-}
-.type-813-info h2{
-        margin-bottom: 10%;
-        @textlimit;
-}
-.type-813-info h4{
-        margin-bottom: 10%;
-        @textlimit;
-}
-.col-md-9{
-        background: #fff;
-        padding: 3%;
-        border-top-right-radius: @border;
-        border-bottom-right-radius: @border;
-       
-}
-
-.type-813-form label{
-        font-weight:600;
-}
-.type-813-form button{
-        background: @background;
-        color: #fff;
-        font-weight: 600;
-        width: 25%;
-}
-.type-813-form button:focus{
-        box-shadow:none;
-}
-.form-control{
-    margin-bottom: -@margin;
-}
-.btn{
-    margin-top: @margin;
-}

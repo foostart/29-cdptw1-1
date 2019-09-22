@@ -1,10 +1,14 @@
-.type-1788 {
-  padding: 8rem 0;
+.type-1788 .about-section {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto !important;
+  margin-right: auto !important;
   background-color: #f4623a !important;
-  width: 100%;
+  padding: 8rem 0;
 }
 .type-1788 .text-white {
   color: #fff !important;
+  margin-top: 1rem;
 }
 .type-1788 .mb-4,
 .type-1788 .my-0 {
@@ -15,9 +19,23 @@
   display: block;
   font-size: 2.5em;
   font-weight: bold;
+  max-width: 50rem;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
 }
 .type-1788 p.mb-4 {
   margin-top: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 10;
+  max-width: 78rem;
 }
 .type-1788 hr.light {
   border-color: #fff;
@@ -43,13 +61,6 @@
 }
 .type-1788 .btn-xl:hover {
   color: #677787;
-}
-.type-1788 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 .type-1788 .text-white-50 {
   color: rgba(255,255,255,0.5) !important;

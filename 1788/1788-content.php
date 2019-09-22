@@ -8,12 +8,12 @@
     $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1788">
-    <div class="container">
-        <div class=" text-center">
-          <h2 class="text-white">We've got what you need!</h2>
-          <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-          <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
-        </div>
+  <div class="container about-section">
+    <div class=" text-center">
+      <h2 class="text-white">We've got what you need!</h2>
+      <hr class="divider light my-4">
+      <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+      <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
     </div>
+  </div>
 </div>

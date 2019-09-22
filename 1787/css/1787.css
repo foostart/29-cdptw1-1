@@ -1,6 +1,5 @@
-.type-1787 {
+.type-1787 .about {
   position: relative;
-  width: 100%;
   height: auto;
   min-height: 35rem;
   background: linear-gradient(to bottom,rgba(22,22,22,0.3) 0,rgba(22,22,22,0.7) 75%,#161616 100%), url(../img/bg-type-1787.jpg);

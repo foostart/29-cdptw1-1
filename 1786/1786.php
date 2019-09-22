@@ -18,7 +18,7 @@
     
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="vi">
     <head>
         <title>module 1786</title>
         <meta charset="UTF-8">

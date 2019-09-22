@@ -4,15 +4,14 @@ body {
 .type-813 {
   padding: 4%;
   height: 400px;
-  background-color: #25274d !important;
 }
-.col-md-3 {
+.type-813 .main {
   background: #ff9b00;
   padding: 4%;
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
-.control-label {
+.type-813 .control-label {
   margin-right: 10px;
   margin-bottom: 10px;
   display: -webkit-box;
@@ -21,13 +20,13 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.type-813-info {
+.type-813 .info {
   margin-top: 10%;
 }
-.type-813-info img {
+.type-813 .info img {
   margin-bottom: 15%;
 }
-.type-813-info h2 {
+.type-813 .info h2 {
   margin-bottom: 10%;
   display: -webkit-box;
   -webkit-line-clamp: 50;
@@ -35,7 +34,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.type-813-info h4 {
+.type-813 .info h4 {
   margin-bottom: 10%;
   display: -webkit-box;
   -webkit-line-clamp: 50;
@@ -43,27 +42,32 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.col-md-9 {
+.type-813 .footer {
   background: #fff;
   padding: 3%;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
-.type-813-form label {
+.type-813 .form label {
   font-weight: 600;
 }
-.type-813-form button {
+.type-813 .form button {
   background: #25274d;
   color: #fff;
   font-weight: 600;
   width: 25%;
 }
-.type-813-form button:focus {
+.type-813 .form button:focus {
   box-shadow: none;
 }
-.form-control {
+.type-813 .form-control {
   margin-bottom: -10px;
 }
-.btn {
+.type-813 .btn {
   margin-top: 10px;
+}
+@media (max-width: 360px) {
+  .type-813 .form button {
+    font-size: 0.7rem;
+  }
 }
