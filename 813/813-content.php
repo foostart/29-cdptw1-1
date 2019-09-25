@@ -26,31 +26,31 @@ $url_path = str_replace('\\', '/', $url_path);
 			</div>
 			<div class="col-md-9 footer">
 				<div class="form">
-					<div class="form-group">
+					<div class="form-group in-footer">
 					  <label class="control-label col-sm-2" >First Name:</label>
 					  <div class="col-sm-10">          
 						<input type="text" class="form-control" placeholder="Enter First Name" >
 					  </div>
 					</div>
-					<div class="form-group">
+					<div class="form-group in-footer">
 					  <label class="control-label col-sm-2" >Last Name:</label>
 					  <div class="col-sm-10">          
 						<input type="text" class="form-control" placeholder="Enter Last Name" >
 					  </div>
 					</div>
-					<div class="form-group">
+					<div class="form-group in-footer">
 					  <label class="control-label col-sm-2" >Email:</label>
 					  <div class="col-sm-10">
 						<input type="email" class="form-control"  placeholder="Enter email">
 					  </div>
 					</div>
-					<div class="form-group">
+					<div class="form-group in-footer">
 					  <label class="control-label col-sm-2">Comment:</label>
 					  <div class="col-sm-10">
 						<textarea class="form-control" rows="5" ></textarea>
 					  </div>
 					</div>
-					<div class="form-group">        
+					<div class="form-group in-footer">        
 					  <div class="col-sm-offset-2 col-sm-10">
 						<button type="submit" class="btn btn-default">Submit</button>
 					  </div>

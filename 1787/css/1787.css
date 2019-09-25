@@ -21,6 +21,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-line-clamp: 1;
+  max-width: 70rem;
   font-family: 'Varela Round';
   background: -webkit-linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0));
   -webkit-text-fill-color: transparent;
@@ -34,7 +35,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 50;
   margin-top: 10px;
 }
 .type-1787 .text-white-50 {
@@ -70,6 +71,7 @@
   }
   .type-1787 h2 {
     font-size: 2rem;
+    max-width: 35rem;
   }
 }
 @media (max-width: 469px) {
@@ -78,6 +80,7 @@
   }
   .type-1787 h2 {
     font-size: 1rem;
+    max-width: 24rem;
   }
 }
 @media (max-width: 340px) {
@@ -85,6 +88,16 @@
     font-size: 2rem;
   }
   .type-1787 h2 {
-    font-size: 0.5rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 204px) {
+  .type-1787 h2 {
+    max-width: 20rem;
+  }
+}
+@media (max-width: 120px) {
+  .type-1787 .btn {
+    font-size: 0.1rem;
   }
 }

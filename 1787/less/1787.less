@@ -26,6 +26,7 @@
         letter-spacing: .8rem;
         @limit;
         -webkit-line-clamp: 1;
+        max-width: 70rem;
         font-family: 'Varela Round';
         background: -webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));
         -webkit-text-fill-color: transparent;
@@ -36,7 +37,7 @@
         max-width: 50rem;
         font-size: 2.5rem;
         @limit;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 50;
         margin-top: 10px;
     }
     .text-white-50 {
@@ -45,6 +46,7 @@
      .mx-auto {
         margin-left: auto!important;
         margin-right: auto!important;
+       
     }
     .btn {
         display: inline-block;
@@ -75,7 +77,9 @@
             }
         h2 {
                 font-size: 2rem;
+                max-width: 35rem;
             }
+       
         }
 
     @media (max-width: 469px){
@@ -84,14 +88,30 @@
             }
         h2 {
                 font-size: 1rem;
+                max-width: 24rem;
             }
+           
         }
     @media (max-width: 340px){
         h1 {
                 font-size: 2rem;          
             }
         h2 {
-                font-size: 0.5rem;
+                font-size: 1rem;
+            }
+            
+        }
+        @media (max-width: 204px)
+        {
+            h2{
+                max-width: 20rem;
+            }
+        }
+        @media (max-width: 120px )
+        {
+            .btn{
+                
+                font-size: 0.1rem;
             }
         }
 }
