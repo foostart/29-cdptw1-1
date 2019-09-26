@@ -22,8 +22,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Basic usage demo">
         <meta name="author" content="David Deutsch">
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/1767.css" rel="stylesheet" type="text/css"/> 
     </head>
     <body>
