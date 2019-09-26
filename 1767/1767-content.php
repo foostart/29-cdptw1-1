@@ -38,7 +38,7 @@ $url_path = str_replace('\\', '/', $url_path);
 					</div>
   				</div>
 				<div class="col-md-4">
-					<div class="type-1767-card">
+					<div class="card">
 					    <img src="images/2.jpg" alt="image">
 					    <div class="card-body">
 					    <h3 class="card-title">Hotel 2</h3>
