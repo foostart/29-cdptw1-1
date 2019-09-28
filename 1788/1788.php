@@ -27,6 +27,8 @@
         <link href="css/bootstrap.min.css" rel="stylesheet"/>
         <link href="css/font-awesome.min.css" rel="stylesheet"/>
         <link href="css/1788.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="css/swiper.css">
+        <script src="js/swiper.js"></script>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -37,6 +39,21 @@
     </head>
     <body>
          <?php  $dir_block.include'1788-content.php'; ?>
+          <script>
+            var swiper = new Swiper('.swiper-container', {
+              speed: 600,
+              parallax: true,
+              loop:true,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          </script>
     </body>
 
 </html>

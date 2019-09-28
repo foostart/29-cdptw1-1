@@ -11,7 +11,7 @@
     <div class="container ">
       <div class="mx-auto text-center">
         <div class="swiper-container">
-            <div class="parallax-bg about" style="background-image:linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%),url(./img/bg-type-1787.jpg)" data-swiper-parallax="-23%"></div>
+            <div class="parallax-bg" style="background-image:linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%),url(./img/1787-bg-type.jpg)" data-swiper-parallax="-23%"></div>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="title" data-swiper-parallax="-300"><h1 class="mx-auto text-uppercase">Grayscale</h1>
