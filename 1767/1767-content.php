@@ -26,13 +26,8 @@ $url_path = str_replace('\\', '/', $url_path);
 					    <img src="images/1.jpg" alt="image">
 					 	 <div class="card-body">
 					  		  <h3 class="card-title">Hotel 1</h3>
-					  		  <div class="star">
-					  		  	 <span class="fa fa-star checked"></span>
-					  		  	 <span class="fa fa-star checked"></span>
-					  		  	 <span class="fa fa-star checked"></span>
-					  		  	 <span class="fa fa-star checked"></span>
-					  		  	 <span class="fa fa-star checked"></span>
-					  		  </div> 
+					  		  <input type="hidden" class="rating" value="1"/>
+					  		 	 
 					  		<p>0.4 Mile from the Venue</p>
 					  	</div>
 					</div>
@@ -42,13 +37,7 @@ $url_path = str_replace('\\', '/', $url_path);
 					    <img src="images/2.jpg" alt="image">
 					    <div class="card-body">
 					    <h3 class="card-title">Hotel 2</h3>
-					    	<div class="star">
-					  		  	 <span class="fa fa-star checked"></span>
-					  		  	 <span class="fa fa-star checked"></span>
-					  		  	 <span class="fa fa-star checked"></span>
-					  		  	 <span class="fa fa-star checked"></span>
-					  		  	 <i class="fa fa-star-half-full"></i>
-					  		</div>
+					  		  	<input type="hidden" class="rating" value="1"/>
 					  		<p>0.5 Mile from the Venue</p>
 						</div>
 					</div>
@@ -58,12 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
 						<img src="images/3.jpg" alt="image">
 						<div class="card-body">
 						    <h3 class="ard-title">Hotel 3</h3>
-					        <div class="star">
-					  		  	 <span class="fa fa-star checked"></span>
-					  		  	 <span class="fa fa-star checked"></span>
-					  		  	 <span class="fa fa-star checked"></span>
-					  		  	 <span class="fa fa-star checked"></span>
-					  		</div>
+					  		  	<input type="hidden" class="rating" value="1"/>
 						  	<p>0.6 Mile from the Venue</p>
 						</div>
 					</div>

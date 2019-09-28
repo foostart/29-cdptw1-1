@@ -1,6 +1,14 @@
 .type-1767 .section-title {
   margin-bottom: 30px;
 }
+.type-1767 .glyphicon-star {
+  color: yellow;
+  font-size: 2rem;
+}
+.type-1767 .glyphicon-star-empty {
+  font-size: 2rem;
+  color: yellow;
+}
 .type-1767 .card-title {
   margin-bottom: 20px;
   color: #142cd4;
@@ -59,12 +67,6 @@
 }
 .type-1767 p.card-text {
   color: red;
-}
-.type-1767 .checked {
-  color: orange;
-}
-.type-1767 i.fa.fa-star-half-full {
-  color: orange;
 }
 .type-1767 img {
   vertical-align: middle;

@@ -8,11 +8,36 @@
     $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1787">
-    <div class="container about">
+    <div class="container ">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto text-uppercase">Grayscale</h1>
-        <h2 class="text-white-50 mx-auto">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-        <a href="#" class="btn btn-primary">Get Started</a>
-      </div>
+        <div class="swiper-container">
+            <div class="parallax-bg about" style="background-image:linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%),url(./img/bg-type-1787.jpg)" data-swiper-parallax="-23%"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="title" data-swiper-parallax="-300"><h1 class="mx-auto text-uppercase">Grayscale</h1>
+                        </div>
+                        <div class="subtitle" data-swiper-parallax="-200">
+                        <h2 class="text-white-50 mx-auto">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
+                        </div>
+                        <div class="text" data-swiper-parallax="-100">
+                          <a href="#" class="btn btn-primary ">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="title" data-swiper-parallax="-300"><h1 class="mx-auto text-uppercase">Graysdcdsdddcale</h1>
+                        </div>
+                        <div class="subtitle" data-swiper-parallax="-200">
+                        <h2 class="text-white-50 mx-auto">áiohffffffffffffffsdfdsdsddđ</h2>
+                        </div>
+                        <div class="text" data-swiper-parallax="-100">
+                          <a href="#" class="btn btn-primary">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                    <div class="swiper-pagination swiper-pagination-white"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+            </div>
+        </div>
     </div>
 </div>

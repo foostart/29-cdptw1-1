@@ -17,6 +17,7 @@
     $less->compileFile('less/1787.less', 'css/1787.css');
     
 ?>
+
 <!DOCTYPE html>
 <html lang="vi">
     <head>
@@ -27,9 +28,25 @@
         <link href="css/bootstrap.min.css" rel="stylesheet"  />
         <link href="css/font-awesome.min.css" rel="stylesheet"/>
         <link href="css/1787.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="css/swiper.css">
+        <script src="js/swiper.js"></script>
     </head>
     <body>
          <?php  $dir_block.include'1787-content.php'; ?>
+          <script>
+            var swiper = new Swiper('.swiper-container', {
+              speed: 600,
+              parallax: true,
+              loop:true,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          </script>
     </body>
-
 </html>

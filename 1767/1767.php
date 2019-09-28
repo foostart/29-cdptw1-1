@@ -25,8 +25,11 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/1767.css" rel="stylesheet" type="text/css"/> 
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-rating.css">
     </head>
     <body>
-        <?php include './1767-content.php'; ?>
+        <?php include './1767-content.php'; ?>   
+        <script  src="js/jquery-2.1.4.min.js"></script>
+        <script  src="js/bootstrap-rating.js"></script>
     </body>
 </html>

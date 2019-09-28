@@ -1,27 +1,23 @@
-.type-1787 .about {
+.type-1787 {
   position: relative;
-  height: auto;
-  min-height: 35rem;
-  background: linear-gradient(to bottom,rgba(22,22,22,0.3) 0,rgba(22,22,22,0.7) 75%,#161616 100%), url(../img/bg-type-1787.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  height: 100%;
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
 .type-1787 h1 {
   font-size: 8rem;
   line-height: 6.5rem;
+  max-width: 70rem;
   letter-spacing: .8rem;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-line-clamp: 1;
-  max-width: 70rem;
   font-family: 'Varela Round';
   background: -webkit-linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0));
   -webkit-text-fill-color: transparent;
@@ -58,6 +54,40 @@
   max-width: 10rem;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+.type-1787 .swiper-container {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+.type-1787 .swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+.type-1787 .parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.type-1787 .swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+.type-1787 .swiper-slide .subtitle {
+  font-size: 21px;
+}
+.type-1787 .swiper-slide .text {
+  font-size: 14px;
+  line-height: 1.3;
+  margin-bottom: 10%;
+}
 .type-1787 .btn-primary {
   background-color: #467370 !important;
   overflow: hidden;
@@ -67,37 +97,32 @@
 }
 @media (max-width: 670px) {
   .type-1787 h1 {
-    font-size: 7rem;
+    font-size: 6rem;
   }
   .type-1787 h2 {
     font-size: 2rem;
     max-width: 35rem;
   }
 }
+@media (max-width: 575px) {
+  .type-1787 h1 {
+    font-size: 4.5srem;
+  }
+}
 @media (max-width: 469px) {
   .type-1787 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .type-1787 h2 {
     font-size: 1rem;
     max-width: 24rem;
   }
 }
-@media (max-width: 340px) {
+@media (max-width: 375px) {
   .type-1787 h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .type-1787 h2 {
     font-size: 1rem;
-  }
-}
-@media (max-width: 204px) {
-  .type-1787 h2 {
-    max-width: 20rem;
-  }
-}
-@media (max-width: 120px) {
-  .type-1787 .btn {
-    font-size: 0.1rem;
   }
 }
