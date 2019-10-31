@@ -24,10 +24,10 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="title" data-swiper-parallax="-300"><h1 class="mx-auto text-uppercase">Graysdcdsdddcale</h1>
+                        <div class="title" data-swiper-parallax="-300"><h1 class="mx-auto text-uppercase">The text</h1>
                         </div>
                         <div class="subtitle" data-swiper-parallax="-200">
-                        <h2 class="text-white-50 mx-auto">áiohffffffffffffffsdfdsdsddđ</h2>
+                        <h2 class="text-white-50 mx-auto">Amy normally hated Monday mornings, but this year was different</h2>
                         </div>
                         <div class="text" data-swiper-parallax="-100">
                           <a href="#" class="btn btn-primary">Get Started</a>

@@ -46,7 +46,7 @@ $url_path = str_replace('\\', '/', $url_path);
 			    	<div class="card">
 						<img src="images/3.jpg" alt="image">
 						<div class="card-body">
-						    <h3 class="ard-title">Hotel 3</h3>
+						    <h3 class="card-title">Hotel 3</h3>
 					  		  	<input type="hidden" class="rating" value="1"/>
 						  	<p>0.6 Mile from the Venue</p>
 						</div>

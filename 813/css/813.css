@@ -66,6 +66,9 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.type-813 .btn:hover {
+  background: #7d7ea2;
+}
 @media (max-width: 360px) {
   .type-813 .form button {
     font-size: 0.7rem;
